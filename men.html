@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        /* Navbar */
+        .navbar {
+            height: 80px;
+            box-shadow: 0px 0px 9px 0px #af67bdb0;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 31px;
+            /* padding: 3px 3px; */
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+
+        .navbar input {
+            padding: 6px;
+            width: 300px;
+            height: 30px;
+            margin: 25px 150px;
+            border-radius: 6px;
+            border: 0px;
+        }
+
+        #search {
+            float: right;
+            background-color: #f5f5f6;
+        }
+
+        .navbar ul img {
+            height: 30px;
+            float: left;
+            margin: 24px 50px;
+        }
+
+        /* Body */
+        .body {
+            background-color: #faf3f9;
+        }
+
+        .body img {
+            width: 1240px;
+            /* margin: 15px 50px 15px 50px; */
+            margin: 1vw 4vw;
+        }
+
+        /* Footer */
+        .footer {
+            /* margin-top: 21px; */
+            height: 260px;
+            background-color: #111111;
+            color: whitesmoke;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 600;
+        }
+
+        .firstrow {
+            /* float: left; */
+            position: absolute;
+            /* border: 0.1px solid black;  temp */
+            left: 10px;
+            margin-top: 15px;
+            line-height: 30px;
+            font-size: 12px;
+            /* padding: 10px; */
+        }
+
+        .secondrow {
+            /* float: left; */
+            /* border: 0.1px solid black;   temp */
+            position: absolute;
+            left: 270px;
+            margin-top: 15px;
+            line-height: 30px;
+            font-size: 12px;
+        }
+
+        .thirdrow {
+            /* border: 00.1px solid black;  temp */
+            position: absolute;
+            left: 560px;
+            margin-top: 15px;
+            line-height: 30px;
+            font-size: 12px;
+        }
+
+        .lightcolored {
+            color: #7e7e7e;
+            font-weight: normal;
+        }
+
+        .lightcolored:hover {
+            color: whitesmoke;
+        }
+
+        .footer li {
+            cursor: pointer;
+        }
+
+        .socialicons {
+            margin-top: 30px;
+            float: right;
+            position: absolute;
+            right: 40px;
+        }
+
+        .socialicons img {
+            height: 22px;
+            border: 1px solid #7e7e7e;
+            border-radius: 6px;
+            background-color: #7e7e7e;
+            margin: 6px;
+        }
+
+        .socialicons img:hover {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <a href="home.html"><img src="logo.png" alt=""></a>
+                <li><a href="men.html">MEN</a></li>
+                <li><a href="women.html">WOMEN</a></li>
+                <li><a href="kids.html">KIDS</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body -->
+    <div class="body">
+        <img src="menpic.png" alt="">
+        <img src="homepic3.webp" alt="">
+        <img src="menpic2.png" alt="">
+    </div>
+   
+    <!-- Footer -->
+    <div class="footer">
+        <div class="firstrow">
+            <ul>
+                <li>FIND A STORE</li>
+                <li>BECOME A MEMBER</li>
+                <li>SIGN UP FOR EMAIL</li>
+                <li>STUDENT DISCOUNTS</li>
+                <li>SEND US FEEDBACK</li>
+            </ul>
+        </div>
+
+        <div class="secondrow">
+            <ul>
+                <li>GET HELP</li>
+                <li class="lightcolored">Order Status</li>
+                <li class="lightcolored">Deliver</li>
+                <li class="lightcolored">Returns</li>
+                <li class="lightcolored">Payment Options</li>
+                <li class="lightcolored">Contact us on myntra.com inquiries</li>
+                <li class="lightcolored">Contact us on all other inquiries</li>
+            </ul>
+        </div>
+
+        <div class="thirdrow">
+            <ul>
+                <li>ABOUT MYNTRA</li>
+                <li class="lightcolored">News</li>
+                <li class="lightcolored">Careers</li>
+                <li class="lightcolored">Investors</li>
+                <li class="lightcolored">Sustainability</li>
+            </ul>
+        </div>
+
+        <div class="socialicons">
+            <a href="https://twitter.com/myntra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="twitter.png"></a>
+            <a href="https://www.facebook.com/myntra/" target="_blank"><img src="facebook.png"></a>
+            <a href="https://www.youtube.com/channel/UCMlJjMRSKaUQhXQ_9XjCGpg" target="_blank"><img src="youtube.png"></a>
+            <a href="https://www.instagram.com/myntra/" target="_blank"><img src="instagram.png"></a>
+        </div>
+    </div>
+</body>
+
+</html>
